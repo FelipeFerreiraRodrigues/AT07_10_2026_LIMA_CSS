@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+
+* {
+    /*Pra não deixar bordas sobrando*/
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+header {
+    background-color:blue;
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+    text-align:center;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 35px;
+    width: auto;
+}
+
+main {
+    background-color:lightslategray;
+    flex:1; 
+    padding:20px 30px; 
+    /*Pra prencheer tudo que der*/
+}
+
+footer {
+    background-color:blue;
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+    text-align:center;
+    padding: 15px; 
+}
+
+.produtos {
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+}
+
+.contatos {
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+}
+
+.servicos {
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+}
+
+.text {
+    color:antiquewhite;
+    font-family:"Orbitron", sans-serif;
+}
